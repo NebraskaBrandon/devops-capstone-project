@@ -1,12 +1,14 @@
-**As a** [role]  
-**I need** [function]  
-**So that** [benefit]  
+**As a** developer  
+**I need** Automation to build and test pull requests 
+**So that** It doesn't need to be done manually
       
 ### Details and Assumptions
-    * [document what you know]      
+    Github Actions will be used
+    Must have linting and testing
+    
 
 ### Acceptance Criteria     
     gherkin 
-    Given [some context]
-    When [certain action is taken]
-    Then [the outcome of action is observed]
+    Given Code is ready to be merged
+    When a pull request is created
+    Then the Github Actions should run linting and unit tests
